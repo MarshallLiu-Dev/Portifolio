@@ -10,10 +10,17 @@
 }
 
 :root{
-   --rose: #F4E1ED;
-   --pink:var(--twiter);
-   --twiter:#50b7f5;
-   --baby:#c2e0f6;
+    --rose: #F4E1ED;
+    --pink:var(--twiter);
+    --twiter:#50b7f5;
+    --baby:#c2e0f6;
+    --appleRed:#fc3c44;
+    --appleLogo:#f94c57;
+    --appleColor:#c2cad7;
+    --appleAddColors:#5856d5;
+    --appleIcons:#A6D2FF;
+    --applePalette:#c4c0c0;;
+    --appleFeed:#000000;
 }
 
 html{
@@ -53,7 +60,7 @@ section{
     color: #3d535f;
     padding: 1rem;
     margin: 2rem 0;
-    background: rgba(255, 51, 153, .05);
+    background: var( --baby);
 }
 
 .heading span{
